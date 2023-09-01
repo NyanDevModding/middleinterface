@@ -9,7 +9,7 @@ this lua module is used for OOP lua with the middleclass module that you can fin
 
 to create an interface, you will do just like you would in middleclass, only the 'class' keyword turn into 'interface'
 
-```lua
+```luau
 local interface = require 'middleinterface
 
 local ISpeakable = interface("ISpeakable")
