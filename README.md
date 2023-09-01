@@ -98,9 +98,11 @@ Person:implements(ISpeakable)
 
 return module
 ```
+(one day we're gonna also have a programm for generating the skeleton of the methods overrides)
+
 seems useless uh ?
 but if you delete the Person:speak() then it will print you an error like "oh seems like you forget to respect the contract : the speak method is absent and must be overriden..."
 
-⚠ please write your *:implements* at then end of your class, thats important
+⚠ please write your *:implements* at the end of your class, thats important
 
 Maybe, some day, gonna do a bigger tutorial in wiki github page
