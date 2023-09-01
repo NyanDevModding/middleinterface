@@ -8,3 +8,13 @@ this lua module is used for OOP lua with the middleclass module that you can fin
 ### Interface creation
 
 to create an interface, you will do just like you would in middleclass, only the 'class' keyword turn into 'interface'
+
+```lua
+local interface = require 'middleinterface
+
+local ISpeakable = interface("ISpeakable")
+
+function ISpeakable:speak() end
+
+return ISpeakable
+```
