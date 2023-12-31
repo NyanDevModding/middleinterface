@@ -77,7 +77,7 @@ you'll need to override every mustOverride functions and then you will gain acce
 
 #### implementing
 
-here comes the OOP programming, if you need a contract for a class that makes her override some methods + giving her access to some other (thats what an interface is) then you will need to implement an interface
+here comes the OOP programming, if you need a contract for a class that makes her override some methods + giving her access to some others (thats what an interface is) then you will need to implement an interface
 
 ```lua
 local class = require 'middleclass'
