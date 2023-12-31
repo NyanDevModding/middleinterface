@@ -32,7 +32,7 @@ function ISpeakable:speak() end
 
 return ISpeakable
 ```
-here, the **ISpeakable interface** has one *mustOverrideMethod* : draw(). you will need to override it while instantiating the interface or implementing it.
+here, the **ISpeakable interface** has one *mustOverrideMethod*:speak(). you will need to override it while instantiating the interface or implementing it.
 
 two other function are possible :
 the *cantOverrideMethod* for a function that will stay the same all the time and the *overridableMethod*, a method that can be overriden or not
